@@ -61,7 +61,7 @@ add this flake to your inputs :
 }
 ```
 
-add it as a package in youre configuration :
+add it as a package in your configuration :
 
 ```nix
 {inputs, ...}:
