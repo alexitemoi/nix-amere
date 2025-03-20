@@ -3,7 +3,7 @@
 My nixvim incredible config !
 
 ## to run :
-
+### local run : (if you want to modify it)
 - git clone the repo : 
 
  ```bash
@@ -21,6 +21,11 @@ My nixvim incredible config !
 ```bash
  nix run 
  ```
+### izi run just to test the sauce :
+
+```bash
+nix run github:alexitemoi/nix-amere
+```
 
 ## to add in your own config (flake only):
 
@@ -61,7 +66,7 @@ add this flake to your inputs :
 }
 ```
 
-add it as a package in youre configuration :
+add it as a package in your configuration :
 
 ```nix
 {inputs, ...}:
