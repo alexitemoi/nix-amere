@@ -1,6 +1,6 @@
 {
 
-globalOpts = {
+  globalOpts = {
     # Tab defaults (might get overwritten by an LSP server)
     tabstop = 2;
     shiftwidth = 2;
@@ -8,10 +8,14 @@ globalOpts = {
     expandtab = true;
     smarttab = true;
 
+    statusline = ''
+      %f\ [%l/%L]\ (%p%%)
+    '';
+
     # System clipboard support, needs xclip/wl-clipboard
     clipboard = {
       providers = {
-        wl-copy.enable = true; # Wayland 
+        wl-copy.enable = true; # Wayland
         xsel.enable = true; # For X11
       };
       register = "unnamedplus";
@@ -30,5 +34,6 @@ globalOpts = {
     colorcolumn = "80,100,120";
     number = true;
     relativenumber = true;
+
   };
 }
