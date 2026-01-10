@@ -3,7 +3,7 @@
     enable = true;
     autoLoad = true;
     servers = {
-      bashls ={
+      bashls = {
         enable = true;
         autostart = true;
       };
@@ -51,6 +51,10 @@
       #  enable = true;
       #  autostart = true;
       #};
+      qmlls = {
+        enable = true;
+        autostart = true;
+      };
       ruff = {
         enable = true;
         autostart = true;
@@ -73,7 +77,7 @@
       zls = {
         enable = true;
         autostart = true;
-      };      
+      };
 
     };
   };
