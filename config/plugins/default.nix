@@ -8,7 +8,7 @@
     ./markview.nix
     ./neo-tree.nix
     ./nix.nix
-    ./none-ls.nix
+    #./none-ls.nix
     ./telescope.nix
     ./tree-sitter.nix
     ./web-devicons.nix
