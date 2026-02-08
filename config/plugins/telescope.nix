@@ -6,7 +6,7 @@
     extensions.fzf-native.enable = true;
     extensions.live-grep-args.enable = true;
   };
-  
+
   keymaps = [
     {
       action = "<cmd>Telescope find_files<CR>";
@@ -17,4 +17,12 @@
       key = "<leader>fg";
     }
   ];
+
+  /*autoCmd = [
+    {
+      event = "VimEnter";
+      once = true;
+      action = "<cmd>Telescope find_files<CR>";
+    }
+  ];*/
 }

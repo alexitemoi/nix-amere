@@ -2,7 +2,6 @@
   imports = [
     ./catppuccin.nix
     ./cmp.nix
-    ./jupytext.nix
     ./lsp-format.nix
     ./lsp.nix
     ./markview.nix
